@@ -2,6 +2,12 @@
 Changelog for package segbot_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.4.0 (2023-01-17)
+------------------
+* Updated for BU AIR laboratory.
+* Remove unnecesarry urdf files. Remains some unnecesarry mesh files.
+* Contributors: Yohei Hayamizu
+
 0.3.5 (2016-08-27)
 ------------------
 
