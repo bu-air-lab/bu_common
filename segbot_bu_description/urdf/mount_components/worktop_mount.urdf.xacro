@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<root xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Included URDF Files -->
+  <xacro:include filename="$(find segbot_bu_description)/urdf/components/aluminium_sheet.urdf.xacro" />
+  <xacro:include filename="$(find segbot_bu_description)/urdf/components/beam_8020.urdf.xacro" />
+
+  <xacro:macro name="worktop_mount" params="parent *origin">
+
+    <link name="worktop_mount_link"/>
+
+    <joint name="worktop_mount_link" type="fixed">
+      <origin xyz="0 0 ${(18 + 2.25)*INCH_TO_M}" rpy="0 0 0"/>
+      <parent link="base_chassis_link" />
+      <child link="worktop_mount_link" />
+    </joint>
+
+    <!-- 80/20 vertical beams -->
+    <xacro:beam_8020 name="back_left_vertical_beam" parent="${parent}" length="${18*INCH_TO_M}">
+      <origin xyz="-${5.0*INCH_TO_M} ${6.0*INCH_TO_M} ${2.25*INCH_TO_M}" rpy="0 0 0" />
+    </xacro:beam_8020>
+    <xacro:beam_8020 name="front_left_vertical_beam" parent="${parent}" length="${18*INCH_TO_M}">
+      <origin xyz="${5.0*INCH_TO_M} ${6.0*INCH_TO_M} ${2.25*INCH_TO_M}" rpy="0 0 0" />
+    </xacro:beam_8020>
+    <xacro:beam_8020 name="back_right_vertical_beam" parent="${parent}" length="${18*INCH_TO_M}">
+      <origin xyz="-${5.0*INCH_TO_M} -${6.0*INCH_TO_M} ${2.25*INCH_TO_M}" rpy="0 0 0" />
+    </xacro:beam_8020>
+    <xacro:beam_8020 name="front_right_vertical_beam" parent="${parent}" length="${18*INCH_TO_M}">
+      <origin xyz="${5.0*INCH_TO_M} -${6.0*INCH_TO_M} ${2.25*INCH_TO_M}" rpy="0 0 0" />
+    </xacro:beam_8020>
+    <xacro:aluminium_sheet name="worktop" parent="${parent}" thickness="${0.125*INCH_TO_M}" length="${11*INCH_TO_M}" width="${13*INCH_TO_M}">
+      <origin xyz="0 0 ${(18 + 2.25)*INCH_TO_M}" rpy="0 0 0" />
+    </xacro:aluminium_sheet>
+
+  </xacro:macro>
+
+</root>

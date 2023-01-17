@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<root xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Included URDF Files -->
+  <xacro:include filename="$(find segbot_bu_description)/urdf/components/aluminium_sheet.urdf.xacro" />
+  <xacro:include filename="$(find segbot_bu_description)/urdf/components/laptop.urdf.xacro" />
+
+  <xacro:macro name="laptop_mount" params="parent *origin">
+    <!-- laptop base plate -->
+    <!-- from the left laptop support beam -->
+    <xacro:aluminium_sheet name="laptop_base_plate" parent="${parent}" thickness="${0.125*INCH_TO_M}" length="${11*INCH_TO_M}" width="${13*INCH_TO_M}">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+    </xacro:aluminium_sheet>
+
+    <!-- laptop -->
+    <xacro:laptop name="laptop" parent="laptop_base_plate">
+      <origin xyz="0 0 ${0.125*INCH_TO_M}" rpy="0 0 0" />
+    </xacro:laptop>
+
+  </xacro:macro>
+
+</root>

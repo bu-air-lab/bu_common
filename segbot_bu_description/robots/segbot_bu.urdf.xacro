@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<robot name="segbot_bu"
+  xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:arg name="laser_max_range" default="25.0" />
+
+  <!-- Included URDF Files -->
+  <xacro:include filename="$(find segbot_bu_description)/robots/common.urdf.xacro" />
+  <xacro:include filename="$(find segbot_bu_description)/urdf/segway_components/segway_110_base.urdf.xacro" />
+  <xacro:include filename="$(find segbot_bu_description)/urdf/mount_components/sick_tim_mount.urdf.xacro" />
+  <xacro:include filename="$(find segbot_bu_description)/urdf/mount_components/worktop_mount.urdf.xacro" />
+  <xacro:include filename="$(find segbot_bu_description)/urdf/mount_components/laptop_mount.urdf.xacro" />
+  <xacro:include filename="$(find segbot_bu_description)/gazebo/segbot.gazebo.xacro" />
+
+  <xacro:property name="SENSOR_BEAM_LENGTH" value="10.75" />
+  <!-- inches -->
+
+  <!-- Add the segbot base -->
+  <xacro:segway_robot />
+
+  <xacro:worktop_mount parent="base_chassis">
+    <origin xyz="${BASE_PLATE_X_OFFSET*INCH_TO_M} 0 ${BASE_PLATE_Z_OFFSET*INCH_TO_M}" rpy="0 0 ${M_PI}"/>
+  </xacro:worktop_mount>
+
+  <xacro:laptop_mount parent="worktop_mount">
+    <origin xyz="0 0 0" rpy="0 0 ${M_PI}"/>
+  </xacro:laptop_mount>
+
+  <!-- Add the forward facing sick_tim  for navigation -->
+  <!-- Change the sensor distance here-->
+  <xacro:sick_tim_mount name="sick_tim" parent="base_chassis" ros_topic="sick_tim/scan" max_range="$(arg laser_max_range)">
+    <origin xyz="${12.75*INCH_TO_M} 0 ${2.25*INCH_TO_M}" rpy="0 0 0"/>
+  </xacro:sick_tim_mount>
+
+  <!-- 
+  <gazebo>
+    <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
+      <updateRate>100</updateRate>
+      <leftJoint>left_wheel</leftJoint>
+      <rightJoint>right_wheel</rightJoint>
+      <rosDebugLevel>na</rosDebugLevel>
+      <publishWheelTF>false</publishWheelTF>
+      <publishOdomTF>true</publishOdomTF>
+      <publishWheelJointState>false</publishWheelJointState>
+      <wheelAcceleration>0</wheelAcceleration>
+      <odometrySource>world</odometrySource>
+      <publishTf>1</publishTf>
+      <wheelSeparation>${track}</wheelSeparation>
+      <wheelDiameter>${wheel_radius * 2}</wheelDiameter>
+      <wheelTorque>20</wheelTorque>
+      <commandTopic>cmd_vel</commandTopic>
+      <odometryTopic>odom</odometryTopic>
+      <odometryFrame>odom</odometryFrame>
+      <robotBaseFrame>base_footprint</robotBaseFrame>
+    </plugin>
+  </gazebo> -->
+
+</robot>
