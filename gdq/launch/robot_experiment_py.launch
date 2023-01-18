@@ -1,0 +1,6 @@
+<launch>
+  <node name="soundplay_node" pkg="sound_play" type="soundplay_node.py"/>
+  <node name="go_to_location_service" pkg="bwi_services" type="go_to_location_service" />
+  <node name="deliver_message_service" pkg="bwi_services" type="deliver_message_service" />
+  <node pkg="rl_robot" name="robot_experiment_py" type="robot_experiment.py" output="screen"/> 
+</launch>         
