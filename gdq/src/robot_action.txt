@@ -1,0 +1,247 @@
+------init--------
+------------------
+episode 0
+------init--------
+------------------
+episode 0
+t: 0	state: s5		action: ('gothrough', 5)	reward: -51.0007758141
+t: 1	state: s5		action: ('goto', 8)	reward: -142.433489084
+t: 2	state: s8		action: ('approach', 9)	reward: -24.9152600765
+t: 3	state: s9_d2_True	action: ('gothrough', 9)	reward: -15.4830589294
+t: 4	state: s10_d2_True	action: ('goto', 15)	reward: -37.9591140747
+t: 5	state: s15		action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 1
+t: 0	state: s6_d3_False	action: ('opendoor', 6)	reward: -52.9249050617
+t: 1	state: s6_d3_False	action: ('opendoor', 6)	reward: -79.2128260136
+t: 2	state: s6_d3_False	action: ('goto', 5)	reward: -79.2361049652
+t: 3	state: s5	action: ('approach', 6)	reward: -56.7834980488
+t: 4	state: s6_d3_False	action: ('goto', 5)	reward: -58.3719050884
+t: 5	state: s5	action: ('goto', 8)	reward: -60.6550910473
+t: 6	state: s8	action: ('goto', 5)	reward: -144.129558802
+t: 7	state: s5	action: ('approach', 6)	reward: -141.997097015
+t: 8	state: s6_d3_False	action: ('opendoor', 5)	reward: -60.1742730141
+------init--------
+------------------
+episode 2
+------init--------
+------------------
+episode 2
+t: 0	state: s8	action: ('opendoor', 5)	reward: -145.364716768
+t: 1	state: s8	action: ('opendoor', 9)	reward: -51.0010769367
+t: 2	state: s8	action: ('approach', 9)	reward: -51.0010647774
+t: 3	state: s9_d2_True	action: ('gothrough', 9)	reward: -24.5905191898
+t: 4	state: s10_d2_True	action: ('goto', 15)	reward: -16.6802380085
+t: 5	state: s15	action: ('opendoor', 14)	reward: -38.2865161896
+t: 6	state: s15	action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 3
+t: 0	state: s6_d3_False	action: ('opendoor', 7)	reward: -61.9102680683
+t: 1	state: s6_d3_False	action: ('opendoor', 6)	reward: -51.0560410023
+t: 2	state: s6_d3_False	action: ('opendoor', 6)	reward: -79.3570070267
+t: 3	state: s6_d3_False	action: ('goto', 5)	reward: -79.1228098869
+t: 4	state: s5	action: ('approach', 6)	reward: -56.4804649353
+t: 5	state: s6_d3_False	action: ('goto', 5)	reward: -86.7973258495
+t: 6	state: s5	action: ('goto', 8)	reward: -55.7164959908
+t: 7	state: s8	action: ('approach', 9)	reward: -135.2391541
+t: 8	state: s9_d2_True	action: ('gothrough', 9)	reward: -24.9965770245
+------init--------
+------------------
+episode 4
+t: 0	state: s8	action: ('goto', 5)	reward: -195.607338905
+t: 1	state: s5	action: ('approach', 6)	reward: -141.800875902
+t: 2	state: s6_d3_True	action: ('gothrough', 6)	reward: -59.926748991
+t: 3	state: s7_d3_True	action: ('goto', 15)	reward: -14.6527969837
+t: 4	state: s15	action: ('opendoor', 14)	reward: -117.01444602
+t: 5	state: s15	action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 5
+t: 0	state: s6_d3_False	action: ('opendoor', 6)	reward: -64.7588131428
+t: 1	state: s6_d3_False	action: ('opendoor', 6)	reward: -79.1951549053
+t: 2	state: s6_d3_False	action: ('goto', 5)	reward: -79.2045469284
+t: 3	state: s5	action: ('approach', 6)	reward: -56.6791250706
+t: 4	state: s6_d3_False	action: ('goto', 5)	reward: -98.7505569458
+t: 5	state: s5	action: ('opendoor', 6)	reward: -56.603937149
+t: 6	state: s5	action: ('goto', 8)	reward: -51.0007479191
+t: 7	state: s8	action: ('approach', 9)	reward: -137.952334881
+t: 8	state: s9_d2_True	action: ('gothrough', 9)	reward: -24.2491009235
+------init--------
+------------------
+episode 6
+t: 0	state: s6_d3_False	action: ('opendoor', 6)	reward: -52.2308759689
+t: 1	state: s6_d3_False	action: ('opendoor', 6)	reward: -79.2272310257
+t: 2	state: s6_d3_False	action: ('goto', 5)	reward: -79.1905739307
+t: 3	state: s5	action: ('goto', 8)	reward: -56.79793787
+t: 4	state: s8	action: ('approach', 9)	reward: -276.028172016
+t: 5	state: s9_d2_True	action: ('gothrough', 9)	reward: -24.4607639313
+t: 6	state: s10_d2_True	action: ('goto', 15)	reward: -14.7841119766
+t: 7	state: s15	action: ('opendoor', 14)	reward: -38.1611878872
+t: 8	state: s15	action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 7
+t: 0	state: s6_d3_True	action: ('gothrough', 6)	reward: -67.317440033
+t: 1	state: s7_d3_True	action: ('approach', 15)	reward: -16.674695015
+t: 2	state: s7_d3_True	action: ('goto', 15)	reward: -51.0113759041
+t: 3	state: s15	action: ('opendoor', 14)	reward: -107.761842012
+t: 4	state: s15	action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 8
+------init--------
+------------------
+episode 8
+t: 0	state: s6_d3_False	action: ('goto', 5)	reward: -65.31280303
+t: 1	state: s5	action: ('approach', 6)	reward: -56.1491880417
+t: 2	state: s6_d3_False	action: ('opendoor', 6)	reward: -89.7993731499
+t: 3	state: s6_d3_False	action: ('opendoor', 6)	reward: -79.2209951878
+t: 4	state: s6_d3_False	action: ('goto', 5)	reward: -79.174875021
+t: 5	state: s5	action: ('gothrough', 5)	reward: -56.9209098816
+t: 6	state: s5	action: ('goto', 5)	reward: -51.0010271072
+t: 7	state: s5	action: ('approach', 6)	reward: -1.41382884979
+t: 8	state: s6_d3_False	action: ('goto', 5)	reward: -87.1126561165
+------init--------
+------------------
+episode 9
+------init--------
+------------------
+episode 9
+t: 0	state: s8	action: ('goto', 5)	reward: -136.550785065
+t: 1	state: s5	action: ('goto', 8)	reward: -137.66925621
+t: 2	state: s8	action: ('approach', 9)	reward: -216.563900948
+t: 3	state: s9_d2_False	action: ('goto', 8)	reward: -24.9510269165
+t: 4	state: s8	action: ('gothrough', 5)	reward: -52.1370029449
+t: 5	state: s8	action: ('approach', 9)	reward: -51.0008440018
+t: 6	state: s9_d2_False	action: ('opendoor', 9)	reward: -22.8050949574
+t: 7	state: s9_d2_False	action: ('opendoor', 9)	reward: -79.0909049511
+t: 8	state: s9_d2_False	action: ('opendoor', 9)	reward: -79.5290029049
+------init--------
+------------------
+episode 10
+t: 0	state: s8	action: ('approach', 9)	reward: -143.206735134
+t: 1	state: s9_d2_True	action: ('gothrough', 9)	reward: -25.1747319698
+t: 2	state: s10_d2_True	action: ('goto', 15)	reward: -15.610806942
+t: 3	state: s15	action: ('opendoor', 14)	reward: -37.3076930046
+t: 4	state: s15	action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 11
+t: 0	state: s4_d1_False	action: ('goto', 4)	reward: -274.152045012
+t: 1	state: s4_d1_False	action: ('opendoor', 2)	reward: -51.0167889595
+t: 2	state: s4_d1_False	action: ('goto', 8)	reward: -51.0181279182
+t: 3	state: s4_d1_False	action: ('goto', 8)	reward: -1.35068202019
+t: 4	state: s4_d1_False	action: ('goto', 8)	reward: -1.3612139225
+t: 5	state: s4_d1_False	action: ('goto', 8)	reward: -1.38980197906
+t: 6	state: s4_d1_False	action: ('goto', 8)	reward: -1.37847399712
+t: 7	state: s4_d1_False	action: ('goto', 8)	reward: -1.3787150383
+t: 8	state: s4_d1_False	action: ('goto', 8)	reward: -1.38407492638
+------init--------
+------------------
+episode 12
+t: 0	state: s6_d3_True	action: ('gothrough', 6)	reward: -53.7392070293
+t: 1	state: s7_d3_True	action: ('goto', 15)	reward: -15.7214400768
+t: 2	state: s15	action: ('opendoor', 14)	reward: -112.99394989
+t: 3	state: s15	action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 13
+t: 0	state: s5	action: ('approach', 6)	reward: -51.0006070137
+t: 1	state: s6_d3_False	action: ('goto', 5)	reward: -64.4036560059
+t: 2	state: s5	action: ('approach', 6)	reward: -59.9121980667
+t: 3	state: s6_d3_False	action: ('opendoor', 6)	reward: -72.0376400948
+t: 4	state: s6_d3_False	action: ('opendoor', 6)	reward: -79.1966958046
+t: 5	state: s6_d3_False	action: ('goto', 5)	reward: -79.4495549202
+t: 6	state: s5	action: ('approach', 6)	reward: -56.3483920097
+t: 7	state: s6_d3_False	action: ('goto', 5)	reward: -70.8628530502
+t: 8	state: s5	action: ('gothrough', 5)	reward: -56.349271059
+------init--------
+------init--------
+------------------
+episode 14
+t: 0	state: s5	action: ('gothrough', 3)	reward: -51.0010409355
+t: 1	state: s5	action: ('gothrough', 5)	reward: -51.0010421276
+t: 2	state: s5	action: ('gothrough', 5)	reward: -51.0005390644
+t: 3	state: s5	action: ('approach', 6)	reward: -51.0008928776
+t: 4	state: s6_d3_False	action: ('opendoor', 6)	reward: -133.179386854
+t: 5	state: s6_d3_False	action: ('opendoor', 6)	reward: -79.2430570126
+t: 6	state: s6_d3_False	action: ('goto', 5)	reward: -79.1209690571
+t: 7	state: s5	action: ('gothrough', 5)	reward: -56.8712308407
+t: 8	state: s5	action: ('gothrough', 5)	reward: -51.0009431839
+------init--------
+------------------
+episode 15
+t: 0	state: s6_d3_False	action: ('approach', 7)	reward: -65.7113101482
+t: 1	state: s6_d3_False	action: ('opendoor', 7)	reward: -98.9020140171
+t: 2	state: s6_d3_False	action: ('opendoor', 7)	reward: -51.0465269089
+t: 3	state: s6_d3_False	action: ('opendoor', 5)	reward: -51.0561408997
+t: 4	state: s6_d3_False	action: ('goto', 5)	reward: -51.0474209785
+t: 5	state: s5	action: ('gothrough', 5)	reward: -56.0321879387
+t: 6	state: s5	action: ('approach', 5)	reward: -51.0001938343
+t: 7	state: s5	action: ('approach', 6)	reward: -51.0002698898
+t: 8	state: s6_d3_False	action: ('opendoor', 6)	reward: -62.6854789257
+------init--------
+------------------
+episode 16
+t: 0	state: s5	action: ('approach', 8)	reward: -51.0010449886
+t: 1	state: s5	action: ('gothrough', 5)	reward: -51.0010459423
+t: 2	state: s5	action: ('gothrough', 5)	reward: -51.0004498959
+t: 3	state: s5	action: ('approach', 6)	reward: -51.0010871887
+t: 4	state: s6_d3_False	action: ('opendoor', 6)	reward: -65.1607859135
+t: 5	state: s6_d3_False	action: ('opendoor', 6)	reward: -79.2752950191
+t: 6	state: s6_d3_False	action: ('approach', 7)	reward: -79.3402369022
+t: 7	state: s6_d3_False	action: ('opendoor', 7)	reward: -98.6931059361
+t: 8	state: s6_d3_False	action: ('opendoor', 7)	reward: -51.0623500347
+------init--------
+------------------
+episode 17
+t: 0	state: s5	action: ('opendoor', 5)	reward: -51.0004448891
+t: 1	state: s5	action: ('approach', 6)	reward: -51.0010449886
+t: 2	state: s6_d3_False	action: ('goto', 5)	reward: -66.7829182148
+t: 3	state: s5	action: ('opendoor', 6)	reward: -55.9668169022
+t: 4	state: s5	action: ('opendoor', 6)	reward: -51.0006849766
+t: 5	state: s5	action: ('goto', 8)	reward: -51.0006239414
+t: 6	state: s8	action: ('approach', 9)	reward: -134.69144702
+t: 7	state: s9_d2_True	action: ('gothrough', 9)	reward: -25.2710311413
+t: 8	state: s10_d2_True	action: ('goto', 15)	reward: -15.6056380272
+------init--------
+------------------
+episode 18
+t: 0	state: s8	action: ('approach', 9)	reward: -138.407245874
+t: 1	state: s9_d2_True	action: ('gothrough', 9)	reward: -24.5608329773
+t: 2	state: s10_d2_True	action: ('goto', 15)	reward: -15.6257948875
+t: 3	state: s15	action: ('opendoor', 14)	reward: -37.9627649784
+t: 4	state: s15	action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 19
+t: 0	state: s8	action: ('approach', 9)	reward: -137.411998987
+t: 1	state: s9_d2_True	action: ('gothrough', 9)	reward: -24.1812210083
+t: 2	state: s10_d2_True	action: ('goto', 15)	reward: -16.5971450806
+t: 3	state: s15	action: ('opendoor', 14)	reward: -37.9859230518
+t: 4	state: s15	action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 20
+t: 0	state: s8	action: ('approach', 9)	reward: -226.211956024
+t: 1	state: s9_d2_False	action: ('opendoor', 9)	reward: -24.7306520939
+t: 2	state: s9_d2_False	action: ('opendoor', 9)	reward: -79.2173249722
+t: 3	state: s9_d2_True	action: ('gothrough', 9)	reward: -26.2428789139
+t: 4	state: s10_d2_True	action: ('gothrough', 10)	reward: -14.082449913
+t: 5	state: s9_d2_True	action: ('gothrough', 9)	reward: -26.9897100925
+t: 6	state: s10_d2_True	action: ('goto', 15)	reward: -28.9900639057
+t: 7	state: s15	action: ('opendoor', 14)	reward: -38.1871168613
+t: 8	state: s15	action: ('opendoor', 14)	reward: 1000
+------init--------
+------------------
+episode 21
+t: 0	state: s8	action: ('approach', 9)	reward: -137.398706913
+t: 1	state: s9_d2_True	action: ('gothrough', 9)	reward: -26.1056861877
+t: 2	state: s10_d2_True	action: ('goto', 15)	reward: -22.6793889999
+t: 3	state: s15	action: ('opendoor', 14)	reward: -37.5921981335
+t: 4	state: s15	action: ('goto', 15)	reward: 1000
+------init--------
+------------------
+episode 22
